@@ -6,7 +6,7 @@ HERE = Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
 setup(
-	name="python-pubsub",
+	name="python-publish-subscriber",
 	# packages=find_packages(include=["yahoo_api"], exclude=("tests",)),
 	keywords="pubsub publisher subscriber",
 	packages=["pubsub"],
