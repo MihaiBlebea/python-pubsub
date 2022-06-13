@@ -3,5 +3,6 @@ from pubsub.main import (
 	Subscriber,
 	Channel,
 	PubSub,
-	PubSubProtocol
+	PubSubProtocol,
+	SubscriberAbstract
 )

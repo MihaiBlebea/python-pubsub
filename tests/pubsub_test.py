@@ -2,10 +2,11 @@ import unittest
 from pubsub import (
 	PubSub,
 	Callback,
-	Channel
+	Channel,
+	SubscriberAbstract
 )
 
-class SubscriberA:
+class SubscriberA(SubscriberAbstract):
 
 	def subscribe_handler(self, payload: dict, callback: Callback = None):
 		print("called from subscribe_handler", payload)
