@@ -1,5 +1,6 @@
 from __future__ import annotations
 from dataclasses import dataclass
+from abc import ABC, abstractmethod
 from typing import (
 	Protocol, 
 	Callable,
@@ -14,6 +15,14 @@ class Subscriber(Protocol):
 
 	def subscribe_handler(self, payload: dict, callback: Callback = None):
 		...
+
+
+class SubscriberAbstract(ABC):
+
+	@abstractmethod
+	def subscribe_handler(self, payload: dict, callback: Callback = None):
+		raise NotImplementedError
+
 
 @dataclass
 class Channel:
