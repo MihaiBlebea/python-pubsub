@@ -1,8 +1,0 @@
-README.md
-setup.py
-pubsub/__init__.py
-pubsub/main.py
-python_publish_subscriber.egg-info/PKG-INFO
-python_publish_subscriber.egg-info/SOURCES.txt
-python_publish_subscriber.egg-info/dependency_links.txt
-python_publish_subscriber.egg-info/top_level.txt

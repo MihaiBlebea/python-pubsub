@@ -1,5 +1,5 @@
 env
-python_pubsub.egg-info
+python_publish-subscriber.egg-info
 dist
 build
 .eggs
